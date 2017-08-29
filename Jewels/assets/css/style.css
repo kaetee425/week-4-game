@@ -1,0 +1,14 @@
+.full-body {
+	margin: 10px 50px;
+}
+
+h1 {
+	color: red;
+}
+
+.jewels {
+	width: 25%;
+	height: 25%;
+	display: inline-block;
+	float: left;
+}
