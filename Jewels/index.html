@@ -5,6 +5,15 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
 		<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<!-- 
+			You generally want to load your javascripts at the bottom of your html body.
+			This is because loading in JS is a blocking action which will prevent the rest
+			of the html document from being parsed and rendered until after the JS has finished
+			loading. Pretty unnoticeable difference with smaller scripts, but as you app code
+			grows it becomes much more noticeable.
+		-->
+
 		<script src="assets/javascript/game.js"></script>
 
 	</head>
@@ -16,7 +25,7 @@
 		</div>
 		<div class="intro">
 			<p>You will be given a random number at the start of the game.</p>
-			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>There are five crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
 			<p>You wil the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
 			<p> The value of each crstyal is hidden from you until you click on it. SO REMEMBER IT!</p>
 			<p>Each time when the game starts, the game will change the value of each crysal.</p>
